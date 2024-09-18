@@ -138,3 +138,203 @@
 // d) Variable names are case _________
 // e) Variable names should not be JS _________
 // see answer in html document
+
+               //  CHAPTER 5 :MATH EXPRESSIONS
+
+    //  Q 1.Write a program that take two numbers & add them in a
+    //  new variable. Show the result in your browser.
+    //  var num1=+prompt("ENTER NUMBER 1");
+    //  var num2=+prompt("ENTER NUMBER 2");
+    //  var sum=num1+num2;
+    // alert("THE addition OF THESE TWO NUMBER ARE:" +sum);
+    //  console.log(sum);
+    // Q:2. Repeat task1 for subtraction, multiplication, division &
+    // modulus.
+    //  var num1=+prompt("ENTER NUMBER 1");
+    //  var num2=+prompt("ENTER NUMBER 2");
+    //  var sub=num1-num2;
+    //  alert("THE subtraction OF THESE TWO NUMBER ARE:" + sub);
+    //  console.log(sub);
+
+    //  var num1=+prompt("ENTER NUMBER 1");
+    //  var num2=+prompt("ENTER NUMBER 2");
+    //  var division=num1/num2;
+    //  alert("THE division OF THESE TWO NUMBER ARE:" + division);
+    //  console.log(division);
+     
+    //  var num1=+prompt("ENTER NUMBER 1");
+    //  var num2=+prompt("ENTER NUMBER 2");
+    //  var multiply=num1*num2;
+    // alert("THE multiplcation OF THESE TWO NUMBER ARE:" +multiply);
+    //  console.log(multiply);
+
+    //  var num1=+prompt("ENTER NUMBER 1");
+    //  var num2=+prompt("ENTER NUMBER 2");
+    //  var modulus=num1 % num2;
+    //  alert("THE  remainder OF THESE TWO NUMBER ARE:" +modulus);
+    //  console.log(modulus);         
+
+// Q:3:  Do the following using JS Mathematic Expressions:
+// a. Declare a variable.
+// var myVar;
+// b.  Show the value of variable in your browser like “Value
+// after variable declaration is: ??”.
+// document.write("Value after variable declaration is: " + myVar + "<br>");
+// answer is undefined
+
+// c. Initialize the variable with some number.
+  //  myVar = 5;
+//// d. Show the value of variable in your browser like “Initial value: 5”.
+//  document.write("Initial value: " + myVar + "<br>");
+// e. Increment the variable.
+        // myVar++;
+// f. Show the value of variable in your browser like “Value after increment is:
+  // document.write("value after increment is:" + myVar + "<br>");
+    // g. Add 7 to the variable.
+    // myVar += 7;
+    // console.log(myVar);
+    // h. Show the value of variable in your browser like “Value after addition is:
+    // document.write("Value after addition is: " + myVar + "<br>");
+    // value of variable in your browser like “Value after addition is: 13”.
+    // i. Decrement the variable.
+    // myVar--;
+
+    // j. Show the value of variable in your browser like “Value
+    // after decrement is: 12”.
+    // document.write("Value after decrement is: " + myVar + "<br>");
+    // // k. Show the remainder after dividing the variable’s value by 3.
+    //  var remainder = myVar % 3;
+    //  document.write("The remainder is : 0" + remainder +"<br>");
+
+    //  Q: 4. Cost of one movie ticket is 600 PKR. Write a script to
+    //  store ticket price in a variable & calculate the cost of buying 5
+    //  tickets to a movie. Example output:
+    // var movieTicket=600;
+    // var buyingTickets =movieTicket*5;
+    // document.write("Total cost to buy 5 tickets to a movie is " + buyingTickets +"<br>");
+//     5. Write a script to display multiplication table of any
+// number in your browser. E.g
+// var num=5;
+                  //  OR
+// var num=+prompt("enter any table and you will get solution");
+// var i;
+// for(i=1;i<=10;i++){
+//     document.write(num + "x" + i + "=" + num*i + "<br>")
+// }
+    // 6. The Temperature Converter: It's hot out! Let's make a
+    // converter based on the steps here.
+    // a. Store a Celsius temperature into a variable.
+    // b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+    // c. Now store a Fahrenheit temperature into a variable.
+    // d. Convert it to Celsius & output "NNoF is NNoC".
+       // Conversion Formulae:
+    // var celsius = 25;
+    // var fahrenheit = (celsius * 9/5) + 32;
+    // document.write(celsius + "°C is " + fahrenheit + "°F" +"<br>");
+    // var fahrenheit = 70;
+    // var celsius = (fahrenheit - 32) * 5/9;
+    // document.write(fahrenheit + "°F is " + celsius + "°C" +"<br>");
+
+    // Q 7. Write a program to implement checkout process of a
+    // shopping cart system for an e-commerce website. Store
+    // the following in variables
+    // a. Price of item 1
+    // b. Price of item 2
+    // c. Ordered quantity of item 1
+    // d. Ordered Quantity of item 2
+    // e. Shipping charges
+
+
+    // Compute the total cost & show the receipt in your browser.
+    // Sample data: Item 1 Price: 250; Item 2 Price: 100
+    // Quantity of Item 1: 3; Quantity of Item 2: 7;
+    // Shipping Charges: 100. Total Cost of your order: 1000
+    // var item1Price = 650;
+    // var item2Price = 100;
+    // var item1Quantity = 3;
+    // var item2Quantity = 7;
+    // var shippingCharges = 100;
+    // document.write("Price of item 1 is:" + item1Price +"<br>");
+    // document.write("Price of item 2 is:" + item2Price+"<br>");
+    // document.write("quantity of item 1 is:" + item1Quantity+"<br>");
+    // document.write("quantity of item 2 is:" + item2Quantity+"<br>");
+    // var totalCost = (item1Price * item1Quantity) + (item2Price *item2Quantity) +shippingCharges;
+    // document.write("Total Cost of your order:" + totalCost+"<br>");
+  //Q :8.   Store total marks & marks obtained by a student   in 2 variables. Compute the percentage & show the result in your browser
+  // var totalMarks = 980;
+  // var marksObtained = 804;
+  // var percentage = (marksObtained/totalMarks)*100;
+  // document.write("Total Marks:" + totalMarks +"<br>");
+  // document.write("Marks Obtained:" + marksObtained +"<br>");
+  // document.write("Percentage:" + percentage + "%" +"<br>");
+//   Q :9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression.
+// (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// and 1 Saudi Riyal = 28 Pakistani Rupee)
+// var usDollar = 10;
+// var saudiRiyal = 25;
+// var exchangeRate = 104.80;
+// var exchangeRate2 = 28;
+// var totalCurrency = (usDollar * exchangeRate) + (saudiRiyal* exchangeRate2);
+// document.write("Total Currency in PKR:" + totalCurrency +"<br>");
+// Q :10. Write a program to initialize a variable with some
+// number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+// var number = 3;
+// var result = (number + 5) * 10 / 2;
+// document.write("Result:" + result +"<br>");
+// Q:11. The Age Calculator: Forgot how old someone is?
+// Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored
+// values.
+
+// Output them to the screen like so: “They are either NN or NN
+// years old”.
+// var currentYear=2024;
+// var birthYear=1988;
+// var age1 = currentYear - birthYear;
+// var age2 = currentYear - birthYear - 1;
+// document.write("Current Year:" + currentYear +"<br>");
+// document.write("Birth Year:" + birthYear +"<br>");
+// document.write("your age is " + age1+"<br>");
+// document.write("maybe your age is " + age2+"<br>");
+// Q:12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+// var radius=10;
+// var circumference = 2 *3.14 *radius;
+// document.write("the circumferrence is :" + circumference + "<br>");
+// var area = 3.14 * radius * radius;
+// document.write("the area is :" + area);
+
+// Q:13. The Lifetime Supply Calculator: Ever wonder how
+// much a “lifetime supply” of your favorite snack is?
+// Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of
+// your life.
+// Output the result to the screen like so: “You will need
+// var snack = "chocolate";
+// var currentAge = 38;
+// var maxAge = 65;
+// var amountPerDay = 3;
+// var totalSnack = (maxAge - currentAge) * amountPerDay;
+// document.write("you will need " + totalSnack + " " + snack + " to last you until the ripe old age of " + maxAge +"<br>");
+// NNNN to last you until the ripe old age of NN”.
+
+
+          // CHAPTER # 1 TO 5 SOLUTIONS THE END
+
