@@ -27,39 +27,39 @@
 //question and answer related to 2nd chapter:
 
 
-//       Assignment # 2 JAVASCRIPT 
-// chapter#02  VARIABLES FOR STRINGS:
+      Assignment # 2 JAVASCRIPT 
+chapter#02  VARIABLES FOR STRINGS:
 
-// q:1 Declare a variable called username?
+q:1 Declare a variable called username?
 
-// var username;
-// q:2: Declare a variable called myName & assign to it a string that represents your Full Name.
+var username;
+q:2: Declare a variable called myName & assign to it a string that represents your Full Name.
 
-// var myName="sana ahtisham";
-// q:3  Write script to
-// a) Declare a JS variable, titled message.
-// b) Assign “Hello World” to variable message
-// c) Display the message in alert box.
-// var message;
-// meesage=="Hello World";
-// alert(message);
-// q:4 Write a script to save student’s bio data in JS variables and show the data in alert boxes.
-// var myName="Jhone Doe";
-// var myAge="15 Years Old";
-// var myCourse="Certified Mobile Application Developnment";
-// alert(myName);
-// alert(myAge);
-// alert(myCourse);
-// q:5 write a sript to display the following alert using one JS variable
-// var food="PIZZA\nPIZZ\nPIZ\nPI\nP";
-// alert(food);
-// q:6 declare a variable called email and assign to it a string that represent your email address(e-g example@example.com)' show the blow mentioned message in an alert box (Hint:use string concatenation)?
-// var email="san@gmail.com";
-// alert("My email address is" + " " + email);
-// q:7 declare a variable called book & give the value 'A Smarter Way to Learn Javasript'.display the following message in an alert box?
-// var book="'A Smarter Way to Learn Javasript'";
-// alert(" I am trying to learn from the Book" + "  " +  book);
-// store following string in a variable and show in alert and browser though JS
+var myName="sana ahtisham";
+q:3  Write script to
+a) Declare a JS variable, titled message.
+b) Assign “Hello World” to variable message
+c) Display the message in alert box.
+var message;
+meesage=="Hello World";
+alert(message);
+q:4 Write a script to save student’s bio data in JS variables and show the data in alert boxes.
+var myName="Jhone Doe";
+var myAge="15 Years Old";
+var myCourse="Certified Mobile Application Developnment";
+alert(myName);
+alert(myAge);
+alert(myCourse);
+q:5 write a sript to display the following alert using one JS variable
+var food="PIZZA\nPIZZ\nPIZ\nPI\nP";
+alert(food);
+q:6 declare a variable called email and assign to it a string that represent your email address(e-g example@example.com)' show the blow mentioned message in an alert box (Hint:use string concatenation)?
+var email="san@gmail.com";
+alert("My email address is" + " " + email);
+q:7 declare a variable called book & give the value 'A Smarter Way to Learn Javasript'.display the following message in an alert box?
+var book="'A Smarter Way to Learn Javasript'";
+alert(" I am trying to learn from the Book" + "  " +  book);
+store following string in a variable and show in alert and browser though JS
 
 
 
