@@ -17,7 +17,7 @@
 // var studentNamesLiteral = [];
 
 // 2. Declare an empty array using JS object notation to store student names in future.
-// let studentNamesObject = new Array();
+// var studentNamesObject = new Array();
 
 // 3. Declare and initialize a strings array.
 // var stringsArray = ["apple", "banana", "cherry"];

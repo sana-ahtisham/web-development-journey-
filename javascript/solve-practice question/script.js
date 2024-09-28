@@ -72,6 +72,146 @@ if (word === e) {
   console.log("Not a palindrome"); }
 //Q;10 check the number is integer or not?
 
+//is mei mein nay kaisy poray form mei kia kia function lagaty hai bataye hai matlab ager koi bhi empty string ho tu agy nahi jaye ga massage errror show kary ga us kay baad ager fill kary sary input tu congrat messege aye aur phir ager chaty ho kay us page ko redirect kara do kisi page kay sath tu kara sakty hai
+
+// function checkAddress() {
+//     var isValid = true; // Track if all fields are valid
+
+//     // Multiple field validation
+//     var fields = [
+//       { id: 'email', errorId: 'email-error', message: 'Email address is required.' },
+//       { id: 'phone', errorId: 'phone-error', message: 'Phone number is required.' },
+//       { id: 'password', errorId: 'password-error', message: 'Password is required.' }
+//     ];
+
+//     // Loop through each field using a simple for loop
+//     for (var i = 0; i < fields.length; i++) {
+//       var field = fields[i];
+//       var fieldValue = document.getElementById(field.id).value;
+//       var errorMessage = document.getElementById(field.errorId);
+
+//       // If the field is empty, display the error
+//       if (fieldValue === "") {
+//         errorMessage.innerHTML = field.message;
+//         errorMessage.style.color = "red";
+//         errorMessage.style.display = "block";
+//         isValid = false; // Form will not submit if any field is invalid
+//       } else {
+//         errorMessage.style.display = "none";
+//       }
+//     }
+
+//     // If all fields are valid, show the success message and redirect
+//     if (isValid) {
+//       alert("Form submitted successfully!");
+//       // Call redirect function here
+//       redirect();
+//     }
+
+//     return false; // Prevent form submission for now
+//   }
+
+//   // Remove error when user starts typing using basic JS
+//   function removeErrorOnInput(fieldId, errorId) {
+//     var fieldValue = document.getElementById(fieldId).value;
+//     var errorMessage = document.getElementById(errorId);
+
+//     if (fieldValue !== "") {
+//       errorMessage.style.display = "none"; // Hide error when input is filled
+//     }
+//   }
+ // Redirect function
+//  function redirect() {
+//     window.location.href = 'javascript/Assignment-questions/index5.js'; // Update with the correct URL path
+//   }
+//form question end
+
+
+
+
+// Constructor For Car 
+function Car(make,model,year,price,fuelEfficiency){
+    this.Manufacturer = make;
+    this.Model = model;
+    this.Year = year;
+    this.Price = price;
+    this.fuelEfficiency = fuelEfficiency;
+    this.printDetail = function(){
+        console.log(`Manufacturer = ${this.Manufacturer}, Model = ${this.Model}, Year = ${this.Year}, Price = ${this.Price};`)
+    }
+    this.updatePrice = function(newPrice){
+        this.Price = newPrice;
+    }
+    this.isClassic = function(currentYear){
+        if ((currentYear - this.Year) > 25){
+            return true;
+        }
+        return false
+    }  
+    this.calculateFuel = function(ditanceInMiles){
+        return Math.round(ditanceInMiles / this.fuelEfficiency)
+    }
+}
+Car.prototype.adjustFuelEfficiency = function(){
+    var carAge = this.calculateAge()
+    switch(carAge){
+        case (carAge >= 5 && carAge <= 10 ):
+            this.fuelEfficiency -= 1
+            break;
+        case (carAge > 10):
+            this.fuelEfficiency -= 2
+            break;
+    }
+}
+Car.prototype.calculateAge = function(){
+    var currentYear = new Date().getFullYear()
+    return currentYear - this.Year
+}
+
+// Object creation
+var car1 = new Car("Toyota","Camry",2000,25000,30);
+localStorage.setItem('car1',JSON.stringify(car1));
+var arr = [1,2,3,]
+localStorage.setItem('arr',JSON.stringify(arr))
+console.log(Storage.getItem('arr'))
+// var car2 = new Car("Honda","Civic",2015,18000,32);
+//ons var car3 = new Car("Ford","Mustang",2018,32000,120);
+
+// Printing details of each car
+// car1.printDetail();
+
+// // Updating price of car1
+//  car1.updatePrice(28000);
+//  car1.printDetail();
+
+ // Checking if car1 is a classic car
+ console.log(`Is ${car1.Model} a classic car? ${car1.isClassic(2028)}`);
+ 
+ // Calculating fuel consumption for car1
+ console.log(`${Ccar1.Model} fuel consumption For 200 miles: ${car1.calculateFuel(200)} Galoons`);
+
+
+for (i in car1){
+    // Methods are also properties of an object, and you can check for their existence just like regular properties.
+    console.log(`${i}`);
+}
+for (i in car1){
+   if(car1.hasOwnProperty(i)){       //will not include property by prototype
+       console.log(`${i}`);
+}}
+
+function listProperties(obj) {
+    var props = [];
+    for (var prop in obj) {
+      if (typeof obj[prop] !== 'function' && obj.hasOwnProperty(prop)) {
+        props.push(prop);
+      }
+    }
+    return props;
+  }
+  console.log(listProperties(car1));
+
+
 
 
 
