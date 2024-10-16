@@ -1,0 +1,83 @@
+/* chapter # 43-48 
+Q:1 solve */
+/* .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+
+    border-collapse: separate ;
+    width: 800px;
+    height: auto;
+    border-spacing: 20px;
+
+}
+.th{
+    border: 10px solid rgb(124, 117, 108);
+}
+th{
+    text-align: center;
+    width: 120px;
+    width: 120px;
+   
+    padding: 20px;
+    margin: 20px;
+    column-span: 20px;
+    
+}
+img{
+    width: 100%;
+    height: 100px;
+    
+} */
+/* chapter # 43-48 
+Q:1 solve end */
+
+ /* chapter #43-48 */
+
+/* Q : 5 show  a counter in brower .Counter should increase on click on increse button and decrese on click on decrese button and show updated counter value in browser? */
+/* start */
+/* .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+}
+#increase,#decrease{
+    font-size: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+} */
+/* end */
+/* chapter # 49-52
+Q:1 solve start*/
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* #signForm{
+      background-color: #f0f0f0;
+      padding: 40px;
+  
+  } */
+   /* end */
+   /* Q:2  */
+   .content{
+    width: 50%;padding: 20px;
+    background-color: #f0f0f0;
+   }
+
