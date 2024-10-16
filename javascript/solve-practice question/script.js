@@ -188,8 +188,19 @@
 function makeInvisible() {
     document.getElementById("ugly").className = "img";
 }
+//Q :16 
+function showAnswer(){
+var answer=document.getElementById('answer');
+var button=document.getElementById('button')
 
-
+if (answer.style.display==="none"){
+  answer.style.display="block";
+  button.textContent = "Hide Answer"; 
+}else{
+  answer.style.display="none";
+  button.textContent = "show Answer"; 
+}}
+showAnswer();
 
 
 

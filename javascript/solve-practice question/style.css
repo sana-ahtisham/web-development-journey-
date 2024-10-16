@@ -4,5 +4,7 @@
     width: 0%;
   }
   /* end */
-  
+  #answer{
+    display: none;
+  }
     
