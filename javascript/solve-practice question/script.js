@@ -185,24 +185,37 @@
   // }  
   
 // Q : 15 hum class js mein get kar sakty hai baghair class diye html mein aur style mein kuch bhi change kar sakty hai?
-function makeInvisible() {
-    document.getElementById("ugly").className = "img";
-}
-//Q :16 
-function showAnswer(){
-var answer=document.getElementById('answer');
-var button=document.getElementById('button')
+// function makeInvisible() {
+//     document.getElementById("ugly").className = "img";
+// }
+// //Q :16 
+// function showAnswer(){
+// var answer=document.getElementById('answer');
+// var button=document.getElementById('button')
 
-if (answer.style.display==="none"){
-  answer.style.display="block";
-  button.textContent = "Hide Answer"; 
-}else{
-  answer.style.display="none";
-  button.textContent = "show Answer"; 
-}}
-showAnswer();
+// if (answer.style.display==="none"){
+//   answer.style.display="block";
+//   button.textContent = "Hide Answer"; 
+// }else{
+//   answer.style.display="none";
+//   button.textContent = "show Answer"; 
+// }}
+// showAnswer();
+// Q :17 accordian
+// function toggleAccordion(sectionId) {
+//   var sections = document.querySelectorAll("div");
+//   sections.forEach(section => section.style.display = "none");
+//    var currentSection = document.getElementById(sectionId);
+//   currentSection.style.display = "block"; 
+// }
+// Q :18 Modal Popup Show/Hide -->
+// function showModal() {
+//   document.getElementById("myModal").style.display = "block"; 
+// }
 
-
+// function closeModal() {
+//   document.getElementById("myModal").style.display = "none";
+// }
 
 
 
