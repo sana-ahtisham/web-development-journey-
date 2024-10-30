@@ -1,6 +1,16 @@
 //question and answer related to first chapter:ALERT
+//      ASSIGNMENT # 1 JAVASCRIPT CHAPTER 1 TO 5
+//       Assignment # 1 JAVASCRIPT Q-1  To  Q-7
+//     (  chapter #01   ALERT :)
+//       Assignment # 1 JAVASCRIPT  Q-1  To  Q-7
+//      ( chapter#02  VARIABLES FOR STRINGS:)
+//       Assignment # 1 JAVASCRIPT  Q-1  To  Q-4
+//       (chapter#03   VARIABLES FOR NUMBERS:)
+//       Assignment # 1 JAVASCRIPT  Q-1  To  Q-3
+//      (chapter#04  LEGAL & ILLLEGAL VARIABLE:)
+//       Assignment # 1 JAVASCRIPT  Q-1  To  Q-13
+//      (     CHAPTER 5 :MATH EXPRESSIONS)
 
-//       Assignment # 1 JAVASCRIPT ALERT
 
 // q:1  Write a script to greet your website visitor using JS alert box?
 // var greet="WELCOME TO MY WEBSITE";
@@ -8,23 +18,97 @@
 // q:2 Write a script to display following message on your web page ouput :error! please enter a valid pasword
 // var message="Error! Please enter a valid password";
 // alert(message);
-// or you can put message directly without using variabe
+// or you can put message directly without using variabe;
 // alert("Error! Please enter a valid password");
 // q:3 Write a script to display following message on your web page: (Hint : Use line break)
-// alert("Welcome to JS land..\nHappy Coding")
+// alert("Welcome to JS land..\nHappy Coding!")
 // q:4 Write a script to display following messages in sequence:
 // alert("Welcome to js land");
-// alert("Happy Coding");
+// alert("Happy Coding\n Prevent the page frrom creating additional dialogs");
 // q:5  Generate the following message through browser’s developer console:
 // console.log("Hello..I cam run JS through my web browser's console");
 // q:6  Make use of alerts in your new/existing HTML & CSS project.
 // alert("hello! my existing website");
-// 7. Practice placement of <script></script> element in following sections of your project in exercise 6: a. Head b. Body (before your page’s HTML)
+// 7. Practice placement of <script></script> element in following sections of your project in exercise 6:
+// a. Head 
+// b. Body (before your page’s HTML),
+// c. Body (inside your page’s HTML),
+// d. Body (after your page’s HTML)
+// aap in ko html file mei aik aik kar kay check kar sakty hai mei nay js mei hi comment kar dia hai question kay neechy hi but ye yahan run nai ho ga 
+// a. head
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>JavaScript in Head</title>
+//     <script>
+//         alert("JavaScript is in the Head section");
+//     </script>
+// </head>
+// <body>
+//     <h1>Hello World</h1>
+// </body>
+// </html>
+// b. Body (before your page’s HTML):
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>JavaScript at Start of Body</title>
+// </head>
+// <body>
+//     <script>
+//         alert("JavaScript is at the start of the Body section");
+//     </script>
+//     <h1>Hello World</h1>
+// </body>
+// </html>
+// c. Body (inside your page’s HTML):
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>JavaScript in Middle of Body</title>
+// </head>
+// <body>
+//     <h1>Hello World</h1>
+//     <script>
+//         alert("JavaScript is in the middle of the Body section");
+//     </script>
+//     <p>This is a paragraph after the script.</p>
+// </body>
+// </html>
+// d. Body (after your page’s HTML):
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>JavaScript at End of Body</title>
+// </head>
+// <body>
+//     <h1>Hello World</h1>
+//     <p>This is a paragraph before the script.</p>
+//     <script>
+//         alert("JavaScript is at the end of the Body section");
+//     </script>
+// </body>
+// </html>
+// its means that:
+/* <head>: Loads JavaScript before rendering the page.
+<body> (before content): Executes JavaScript before the HTML content is displayed.
+<body> (inside HTML): Executes JavaScript after some HTML content is displayed.
+<body> (after content): Loads JavaScript last, once all HTML content is displayed (ideal for scripts that interact with the entire page). */ 
+
+//                          chapter# 1 end
 
 //question and answer related to 2nd chapter:
 
-//       Assignment # 2 JAVASCRIPT
-// chapter#02  VARIABLES FOR STRINGS:
+//       Assignment # 1 JAVASCRIPT
+//       chapter#02  VARIABLES FOR STRINGS:
 
 // q:1 Declare a variable called username?
 
@@ -57,7 +141,12 @@
 // alert(" I am trying to learn from the Book" + "  " +  book);
 // store following string in a variable and show in alert and browser though JS
 
-// chapter#03 VARIABLES FOR NUMBERS:
+
+//                          chapter# 2 end
+
+
+//                     chapter#03 VARIABLES FOR NUMBERS:
+//                    Assignment # 1 JAVASCRIPT  Q-1  To  Q-4
 
 //q:1 Declare a variable called age & assign to it your age. Show your age in an alert box.
 //  var age=20;
@@ -68,14 +157,6 @@
 // var visitCountEnd="unlimited Times";
 
 // Display the visit count on the web page
-//  alert("You have visited this site " + visitCount++ + " times.");
-//  alert("You have visited this site " + visitCount++ + " times.");
-//  alert("You have visited this site " + visitCount++ + " times.");
-//  alert("You have visited this site " + visitCount++ + " times.");
-//  alert("You have visited this site " + visitCount++ + " times.");
-//  alert("You have visited this site " + visitCount++ + " times.");
-//  alert("You have visited this site " + visitCount++ + " times.");
-//  alert("You have visited this site " + visitCount++ + " times.");
 //  alert("You have visited this site " + visitCount++ + " times.");
 //  alert("You have visited this site " + visitCount++ + " times.");
 //  alert("You have visited this site " + visitCount++ + " times.");
@@ -107,12 +188,13 @@
 //  // Display the message
 //  console.log(visitorName +  " ordered " + quantity +" " +productTitle +"(s) on XYZ Clothing store." );
 
+//                          chapter# 3 end
+
 // chapter#04 LEGAL & ILLEGAL:
+//  ASSIGNMENT #1 Q-1 to Q-3
 
 //   1. Declare 3 variables in one statement.
 
-//    var x = 1, y = 2, z = 3;
-//  //   or
 //  var x, y, z;
 
 //  2. Declare 5 legal & 5 illegal variable names.
@@ -137,9 +219,23 @@
 // _____. For example $name, _name or name
 // d) Variable names are case _________
 // e) Variable names should not be JS _________
-// see answer in html document
+// see answer in js by uncomment
 
-//  CHAPTER 5 :MATH EXPRESSIONS
+// document.write(`<h1>Rules for Naming JS Variables</h1>
+//     <p>Variable names can only contain <strong>letters</strong>, <strong>numbers</strong>, <strong>dollar signs ($)</strong>, and <strong>underscores (_)</strong>.<br>
+//        For example: <code>$my_1stVariable</code></p>
+    
+//     <p>Variables must begin with a <strong>letter</strong>, <strong>dollar sign ($)</strong>, or <strong>underscore (_)</strong>.<br>
+//        For example: <code>$name</code>, <code>_name</code>, or <code>name</code></p>
+    
+//     <p>Variable names are case <strong>sensitive</strong>.</p>
+    
+//     <p>Variable names should not be JS <strong>keywords</strong>.</p>
+// `);
+//                          chapter# 4 end
+
+//                    CHAPTER 5 :MATH EXPRESSIONS
+//                    ASSIGNMENT #1 :Q-1 TO Q-13
 
 //  Q 1.Write a program that take two numbers & add them in a
 //  new variable. Show the result in your browser.
@@ -333,348 +429,7 @@
 // var totalSnack = (maxAge - currentAge) * amountPerDay;
 // document.write("you will need " + totalSnack + " " + snack + " to last you until the ripe old age of " + maxAge +"<br>");
 // NNNN to last you until the ripe old age of NN”.
+//                    CHAPTER #5 END
 
 // CHAPTER # 1 TO 5 SOLUTIONS THE END
 
-// CHAPTER # 6 :MATH EXPRESSIONS
-//CHAPTER # 7:Math expressions: Eliminating ambiguity
-//CHAPTER # 8:Math expressions: Concatenating text strings
-
-
-//   Assignment # 6-8
-//   JAVASCRIPT solution
-
-//Q 1. Write a program to take a number in a variable, do the
-// required arithmetic to display the following result in your
-// browser:
-// var a = 10;
-
-// document.write("The value of a is : " +  a  +"<br>");
-
-// document.write("The value of ++a is" +  ++a +"<br> Now the value of a is : " + a +"<br>");
-// document.write("The value of a++ is" +  a++ +"<br> Now the value of a is : " + a +"<br>");
-// document.write("The value of --a is" +  --a +"<br> Now the value of a is : " + a +"<br>");
-// document.write("The value of a-- is" +  a-- +"<br> Now the value of a is : " + a +"<br>");
-
-// Q: 2. What will be the output in variables a, b & result after
-// execution of the following script:
-// var a = 2, b = 1;
-// var result = --a - --b + ++b + b--;
-// Explain the output at each stage:
-// --a;
-// --a - --b;
-// --a - --b + ++b;
-// --a - --b + ++b + b--;
-
-// var a = 2, b = 1;
-// document.write("--a ; a become 1.")
-// document.write("<br>--a - --b ; a become 1 and b become 0 so result is 1 - 0 = 1");
-// document.write("<br> --a - --b + ++b ; a is 1 . b is 0 , then incremented to 1.Result is 1 - 0 + 1 = 2 ");
-// document.write("<br> --a - --b + ++b + b-- ; a is 1 . b is 0 , incremented to 1 , and used as 1 before decrementing . Result is 1 - 0 + 1 + 1 = 3 . After this operation , b becomes 0 . Thus, the final values are : <br>")
-// document.write(--a - --b + ++b + b--);
-
-// a = 1 , b = 0 , result = 3
-// Q:3.Write a program that takes input a name from user &
-// greet the user.
-// var yourName=prompt("ENTER YOUR NAME");
-// document.write("Hello " + yourName + " !");
-
-// 5. Write a program to take input a number from user &
-// display it’s multiplication table on your browser. If user
-// does not enter a new number, multiplication table of 5
-// should be displayed by default.
-// var a = prompt("Enter a number");
-// if (a === null || a === "") {
-//     a = 5;
-// } else {
-//     a = a;
-// }
-
-// document.write("Table of " + a + "<br>");
-// for (var i = 1; i <= 10; i++) {
-//     document.write(a + " x " + i + " = " + (a * i) + "<br>");
-// }
-// Q :6. Take
-// a) Take three subjects name from user and store them in 3
-// different variables.
-// b) Total marks for each subject is 100, store it in another
-// variable.
-// c) Take obtained marks for first subject from user and
-// stored it in different variable.
-// d) Take obtained marks for remaining 2 subjects from user
-// and store them in variables.
-// e) Now calculate total marks and percentage and show the
-// result in browser like this.(Hint: user table)
-// a) Take three subjects name from user and store them in 3 different variables
-//  var subject1 = prompt("Enter the name of the first subject");
-//  var subject2 = prompt("Enter the name of the second subject");
-//  var subject3 = prompt("Enter the name of the third subject");
-
-// b) Total marks for each subject is 100, store it in another variable
-//  var totalMarksPerSubject = 100;
-
-// c) Take obtained marks for first subject from user and store it in different variable
-//  var obtainedMarks1 = +prompt("Enter obtained marks for " + subject1);
-
-// d) Take obtained marks for remaining 2 subjects from user and store them in variables
-//  var obtainedMarks2 =+prompt("Enter obtained marks for " + subject2);
-//  var obtainedMarks3 =+prompt("Enter obtained marks for " + subject3);
-
-// e) Calculate total marks and percentage
-//  var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
-//  var totalMaximumMarks = totalMarksPerSubject * 3;
-//  var percentage = (totalObtainedMarks / totalMaximumMarks) * 100;
-
-// Display the result in a table
-//  document.write("<table border='1'>");
-//  document.write("<tr><th>Subject</th><th>Obtained Marks</th><th>Total Marks</th></tr>");
-//  document.write("<tr><td>" + subject1 + "</td><td>" + obtainedMarks1 + "</td><td>" + totalMarksPerSubject + "</td></tr>");
-//  document.write("<tr><td>" + subject2 + "</td><td>" + obtainedMarks2 + "</td><td>" + totalMarksPerSubject + "</td></tr>");
-//  document.write("<tr><td>" + subject3 + "</td><td>" + obtainedMarks3 + "</td><td>" + totalMarksPerSubject + "</td></tr>");
-//  document.write("<tr><th>Total</th><th>" + totalObtainedMarks + "</th><th>" + totalMaximumMarks + "</th></tr>");
-//  document.write("<tr><th>Percentage</th><th colspan='2'>" + percentage.toFixed(2) + "%</th></tr>");
-//  document.write("</table>");
-
-// Display the result  of % of subjects in a break line:
-
-// document.write("Subject1 : " + subject1 + "<br>Obtained Marks : "
-//    + sub1Obtained + "<br>Total Marks : " + totalMarks + "<br>Percentage : "+ percentage1 + "<br>Subject2 : " + subject2 +
-//     "<br>Obtained Marks : " + sub2Obtained + "<br>Total Marks : " + totalMarks + "<br>Percentage2 : " +percentage2 + "<br>< br>Subject3 : " + subject3 + "<br>Obtained Marks : "
-//    + sub3Obtained + "<br>Total Marks : " + totalMarks + "<br>Percentage3 : " + percentage3 + "<br><br>Total : " + total + "<br>Percentage : " + percentage + "<br> Grade : " + percentage + "<br>Remarks : " + percentage + "<br><br>"
-
-
-
-//  Assignment # 9-11
-// CHAPTER # 9 :Prompt
-//CHAPTER # 10:Math expressions: if statements
-//CHAPTER # 11:Math expressions: Comparison operator
-//  JAVASCRIPT solution
-
-// Q: 1.Write a program to take “city” name as input from user. If
-// user enters “Karachi”, welcome the user like this:
-// “Welcome to city of lights”
-
-// Take city name as input from the user
-//   var city = prompt("Enter the name of your city");
-
-//   // Check if the entered city is "Karachi"
-//   if (city.toLowerCase() === "karachi") {
-//       document.write("Welcome to city of lights");
-//   } else {
-//       document.write("Welcome to " + city);
-//   }
-// Q :2. Write a program to take “gender” as input from user. If the
-// user is male, give the message: Good Morning Sir. If the
-// user is female, give the message: Good Morning Ma’am.
-
-//   var gender = prompt("Enter your gender");
-
-//   // Check if the entered city is "Karachi"
-//   if (gender.toLowerCase() === "female") {
-//       document.write("Good Morning maam.");
-//   }
-//   else if(gender.toLowerCase() === "male"){
-//       document.write("Good Morning sir.");
-//   }
-//   else{
-//    document.write("enter your gender.");
-//   }
-//  Q:3. Write a program to take input color of road traffic signal
-//  from the user & show the message according to this table:
-//  var color = prompt("Enter any color of traffic signal");
-//  if(color.toLowerCase() === "red"){
-//    document.write("Must Stop");
-//  }
-//  else if(color.toLowerCase() === "yellow"){
-//    document.write("Ready to move");
-//    }
-//  else if(color.toLowerCase() === "green"){
-//       document.write("Move now");
-//    }
-// else{
-//       document.write("Enter the correct signal color");
-//    }
-//  Q :4.Write a program to take input remaining fuel in car (in
-//    litres) from user. If the current fuel is less than 0.25litres,
-//    show the message “Please refill the fuel in your car”
-//   var fuel = +prompt("How many remaining fuel in your car");
-//   if (fuel<=0.25) {
-//       document.write("Please refill the fuel in your car");
-//   } else if (fuel>0.25){
-//       document.write( "the fuel is enough in your car");
-//   }
-//   else{
-//    document.write("enter the correct value");
-//   }
-// Q:5. Run this script, & check whether alert message would be
-//    displayed or not. Record the outputs.
-// (a):
-// var a = 4;
-// if (++a === 5){
-// alert("given condition for variable a is true");
-// }
-// answer:alert show
-// (b):
-// var b = 82;
-// if (b++ === 83){
-//    alert("given condition for variable b is true");
-//    }
-// answer:alert not show
-// (c):
-//  var c = 12;
-//  if (c++ === 13){
-//  alert("condition 1 is true");
-//  }
-//  if (c === 13){
-//  alert("condition 2 is true");
-//  }
-//  if (++c < 14){
-//  alert("condition 3 is true");
-//  }
-//  if(c === 14){
-//  alert("condition 4 is true");
-//  }
-// answer:condition 2 is true
-// (d):
-//  var materialCost = 20000;
-//  var laborCost = 2000;
-//  var totalCost = materialCost + laborCost;
-//  if (totalCost === laborCost + materialCost){
-//  alert("The cost equals");
-//  }
-// answer:The cost equals
-// (e):
-// if (true){
-//  alert("True");
-//  }
-//  if (false){
-//  alert("False");
-//  }
-// answer:true
-// ( f).
-// if("car" < "cat"){
-//    alert("car is smaller than cat");
-// }
-// answer:car is smaller than cat
-// 6. Write a program to take input the marks obtained in three
-//    subjects & total marks. Compute & show the resulting
-//    percentage on your page. Take percentage & compute
-//    grade as per following table:
-//    Percentage Grade
-//    80-100 A
-//    70-79 B
-//    60-69 C
-//    50-59 D
-//    0-49 F
-
-//  document.write("<table border='1'>");
-//  document.write("<tr><th> Percentage</th><th>Grade</th><th>Remarks</th></tr>");
-//  document.write("<tr><td> Greater than or equal to 80 </td><td> A </td><td> Excellent </td></tr>");
-//  document.write("<tr><td> Greater than or equal to 70 </td><td> B </td><td> Good </td></tr>");
-//  document.write("<tr><td> Greater than or equal to 60 </td><td> C </td><td> You need to improve </td></tr>");
-//  document.write("<tr><td> Greater than or equal to 50 </td><td> D </td><td> Fair </td></tr>");
-//  document.write("<tr><td>Less than 50 </td><td> F </td><td> Sorry </td></tr>");
-//  document.write("</table>");
-
-//  var sub1 = +prompt("Enter the marks of subject 1:");
-//  var sub2 = +prompt("Enter the marks of subject 2:");
-//  var sub3 = +prompt("Enter the marks of subject 3:");
-//  var obtainedTotal = sub1 + sub2 + sub3;
-//  var total = 300;
-//  var percentage = obtainedTotal / total * 100;
-
-//  if (percentage >= 80 && percentage <= 100) {
-//      document.write("<h1>Total Marks:</h1> <br>Marks Obtained: " + obtainedTotal + "<br> Percentage: " +
-//          percentage.toFixed(2) + "<br> Grade: A <br> Remarks: Excellent <br> ");
-//  } else if (percentage >= 70 && percentage < 80) {
-//      document.write("<h1>Total Marks:</h1> <br>Marks Obtained: " + obtainedTotal + "<br> Percentage: " +
-//          percentage.toFixed(2) + "<br> Grade: B <br> Remarks: Good <br> ");
-//  } else if (percentage >= 60 && percentage < 70) {
-//      document.write("<h1>Total Marks:</h1> <br>Marks Obtained: " + obtainedTotal + "<br> Percentage: " +
-//          percentage.toFixed(2) + "<br> Grade: C <br> Remarks: You need to improve <br> ");
-//  } else if (percentage >= 50 && percentage < 60) {
-//      document.write("<h1>Total Marks:</h1> <br>Marks Obtained: " + obtainedTotal + "<br> Percentage: " +
-//          percentage.toFixed(2) + "<br> Grade: D <br> Remarks: Fair <br> ");
-//  } else {
-//      document.write("<h1>Total Marks:</h1> <br>Marks Obtained: " + obtainedTotal + "<br> Percentage: " +
-//          percentage.toFixed(2) + "<br> Grade: F <br> Remarks: Sorry <br> ");
-//  }
-// Q:7. Guess game:
-// Prompt user to guess the secret number.
-// Store a secret number (ranging from 1 to 10) in a variable.
-// a. If user guesses the same number, show “Bingo! Correct Answer."
-// b. If the guessed number +1 is the secret number, show  “Close enough to the correct answer”.
-// c. If the guessed number -1 is the secret number, show “Close enough to the correct answer”.
-// d. If the guessed number is not the secret number, show “Try again”.
-// var userInput = +prompt("Enter Number and guess it is matching from my number");
-// var secretNumber = 5;
-// if (userInput == secretNumber) {
-//   alert("Bingo! Correct Answer");
-// } else if (userInput + 1 == secretNumber) {
-//   alert("Close enough to the correct answer");
-// } else if (userInput - 1 == secretNumber) {
-//   alert("Close enough to the correct answer");
-// } else {
-//   alert("Try again");
-// }
-
-// Q:8. Write a program to check whether the given number is
-// divisible by 3. Show the message to the user if the number
-// is divisible by 3.?
-// var myNumber = +prompt("Enter a number");
-// if (myNumberumber % 3 == 0) {
-//   alert("Number is divisible by 3");
-// } else {
-//   alert("Number is not divisible by 3");
-//
-// Q:9. Write a program that checks whether the given input is an
-// even number or an odd number.?
-// var myNumber = +prompt("Enter a number");
-// if (myNumber % 2 == 0) {
-//   alert("Number is even");
-// } else {
-//   alert("Number is odd");
-// Q:10. Write a program that takes temperature as input and
-// shows a message based on following criteria
-// a. T > 40 then “It is too hot outside.”
-// b. T > 30 then “The Weather today is Normal.”
-// c. T > 20 then “Today’s Weather is cool.”
-// d. T > 10 then “OMG! Today’s weather is so Cool.”?
-
-// var temperature = +prompt("Enter temperature");
-// if (temperature > 40) {
-//   alert("It is too hot outside.");
-// } else if (temperature > 30) {
-//   alert("The Weather today is Normal.");
-// } else if (temperature > 20) {
-//   alert("Today’s Weather is cool.");
-// } else if (temperature > 10) {
-//   alert("OMG! Today’s weather is so Cool.");
-// } else {
-//   alert("Invalid temperature");
-// }
-// Q:11. Write a program to create a calculator for +,-,*, / & %
-// using if statements. Take the following input:
-// a. First number
-// b. Second number
-// c. Operation (+, -, *, /, %)
-// Compute & show the calculated result to user.?
-// var num1 = +prompt("Enter first number");
-// var num2 = +prompt("Enter second number");
-// var operation = prompt("Enter operation");
-// if (operation == "+") {
-//   alert(num1 + num2);
-// } else if (operation == "-") {
-//   alert(num1 - num2);
-// } else if (operation == "*") {
-//   alert(num1 * num2);
-// } else if (operation == "/") {
-//   if (num2 != 0) {
-//     alert(num1 / num2);
-//   } else {
-//     alert("Error! Division by zero is not allowed");}
-// } else if (operation == "%") {
-//   if (num2 != 0) {
-//     alert(num1 % num2);
-//   } else {
-//     alert("Error! Division by zero is not allowed");}
