@@ -216,6 +216,39 @@
 // function closeModal() {
 //   document.getElementById("myModal").style.display = "none";
 // }
+// Q :17 check bracket are balance or not
+var input="(([]})"
+var arr=[]
+var balanced=true;
+for (let i = 0; i < input.length; i++) {
+  if (input[i]==="(" || input[i]==="[" || input[i]==="{") {
+      arr.push(input[i]);
+      console.log(arr);
+      
+      }
+      
+      else if (input[i]===")" || input[i]==="]" || input[i]==="}" )  {
+        var last= arr.pop()
+        console.log(last);
+        
+          if(
+          (input[i] === ")" && last !== "(") ||
+          (input[i] === "]" && last !== "[") ||
+          (input[i] === "}" && last !== "{")
+        ) {
+          balanced = false;
+          break;
+        }
+          }
+        }
+        if (balanced && arr.length===0) {
+          console.log("balanced");          
+        }else{
+          console.log("not balanced");
+        }
+
+
+
 
 
 
