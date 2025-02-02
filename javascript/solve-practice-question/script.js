@@ -10,7 +10,7 @@
 // var arr=[1,2,3,4,5];
 // var obj={a:1,b:2,c:3,d:4,e:5};
 // function checkArray(element) {
-//     return Array.isArray(element);    
+//     return Array.isArray(element);
 // }
 //console.log(checkArray(arr));
 //console.log(checkArray(obj));
@@ -27,9 +27,9 @@
 //method#1
 // if(Number.isInteger(num)){
 //     console.log("yes");}else{
-//         console.log("no");    
+//         console.log("no");
 //     }
- //method#2
+//method#2
 //  if(num%1===0){
 //     console.log("yes");
 //     }else{
@@ -41,7 +41,7 @@
 // console.log(index);
 // var lastIndex=arr.lastIndexOf(2);
 // console.log(lastIndex);
-//Q;6 dublicate array value  in same array? 
+//Q;6 dublicate array value  in same array?
 // var arr=[1,2,3,4,5,2,3,4,5];
 // function dublicateSAmeValuAgain(arr) {
 //     return arr=arr.concat(arr)
@@ -53,9 +53,9 @@
 //     return obj.a===4
 //     })
 //     console.log(index);
-    // In this case:
+// In this case:
 // For the first object { a: 1, b: 2, c: 3 }, obj.a is 1, so this condition fails (1 !== 4).
-// For the second object { a: 4, b: 5 }, obj.a is 4, so the condition passes (4 === 4), and findIndex() stops and returns the index of that object, which is 1.   
+// For the second object { a: 4, b: 5 }, obj.a is 4, so the condition passes (4 === 4), and findIndex() stops and returns the index of that object, which is 1.
 //Q;8 reverse the number?
 //method#1:
 // function reverseKarDo(num){
@@ -73,10 +73,10 @@
 //     }
 
 //Q;9 check string is palindrome or not
-// var word = "sana"; 
-// var e = ""; 
+// var word = "sana";
+// var e = "";
 //   e = word.split("").reverse().join("");
-//   console.log(e); 
+//   console.log(e);
 // if (word === e) {
 //   console.log("Palindrome"); } else {
 //   console.log("Not a palindrome"); }
@@ -84,7 +84,7 @@
 // var num = +prompt("Enter a number");
 
 // function checkInteger(num) {
-//   if (Number.isInteger(num)) { 
+//   if (Number.isInteger(num)) {
 //     console.log("Integer");
 //   } else {
 //     console.log("Not an integer");
@@ -141,7 +141,7 @@
 //       errorMessage.style.display = "none"; // Hide error when input is filled
 //     }
 //   }
- // Redirect function
+// Redirect function
 //  function redirect() {
 //     window.location.href = 'javascript/Assignment-questions/index5.js'; // Update with the correct URL path
 //   }
@@ -163,42 +163,42 @@
 //         words[i] = words[i].charAt(0).toUpperCase() + words[i].slice
 //             (1).toLowerCase();
 //     }
-//     return words.join(' ');  
+//     return words.join(' ');
 // }
 //Q :14  read more and read less concept show in paragraph
 // function readMore() {
-  //   var readMore = document.getElementById("readmore");
-  //   var readText = document.getElementById("readtext");
-  //   var show = document.getElementById("show");
-  
-  //   if (readMore.style.display === "none") {
-  //     readMore.style.display = "inline";
-  //     readText.innerHTML = "<em style='color:blue;'>Read less</em>";
-  //   } else {
-  //     readMore.style.display = "none";
-  //     readText.innerHTML = "<em style='color:blue;'>Read More</em>";
-  //   }
-  
-  //   // Update the content of 'show'
-  //   show.innerHTML = `<p>adipisci blanditiis asperiores totam. Eligendi assumenda perferendis voluptatem, neque aliquam natus ducimus enim</p>`;
-  //   console.log(show.innerHTML);
-  // }  
-  
+//   var readMore = document.getElementById("readmore");
+//   var readText = document.getElementById("readtext");
+//   var show = document.getElementById("show");
+
+//   if (readMore.style.display === "none") {
+//     readMore.style.display = "inline";
+//     readText.innerHTML = "<em style='color:blue;'>Read less</em>";
+//   } else {
+//     readMore.style.display = "none";
+//     readText.innerHTML = "<em style='color:blue;'>Read More</em>";
+//   }
+
+//   // Update the content of 'show'
+//   show.innerHTML = `<p>adipisci blanditiis asperiores totam. Eligendi assumenda perferendis voluptatem, neque aliquam natus ducimus enim</p>`;
+//   console.log(show.innerHTML);
+// }
+
 // Q : 15 hum class js mein get kar sakty hai baghair class diye html mein aur style mein kuch bhi change kar sakty hai?
 // function makeInvisible() {
 //     document.getElementById("ugly").className = "img";
 // }
-// //Q :16 
+// //Q :16
 // function showAnswer(){
 // var answer=document.getElementById('answer');
 // var button=document.getElementById('button')
 
 // if (answer.style.display==="none"){
 //   answer.style.display="block";
-//   button.textContent = "Hide Answer"; 
+//   button.textContent = "Hide Answer";
 // }else{
 //   answer.style.display="none";
-//   button.textContent = "show Answer"; 
+//   button.textContent = "show Answer";
 // }}
 // showAnswer();
 // Q :17 accordian
@@ -206,53 +206,41 @@
 //   var sections = document.querySelectorAll("div");
 //   sections.forEach(section => section.style.display = "none");
 //    var currentSection = document.getElementById(sectionId);
-//   currentSection.style.display = "block"; 
+//   currentSection.style.display = "block";
 // }
 // Q :18 Modal Popup Show/Hide -->
 // function showModal() {
-//   document.getElementById("myModal").style.display = "block"; 
+//   document.getElementById("myModal").style.display = "block";
 // }
 
 // function closeModal() {
 //   document.getElementById("myModal").style.display = "none";
 // }
+
 // Q :17 check bracket are balance or not
-var input="(([]})"
-var arr=[]
-var balanced=true;
+var input = "(([]})";
+var arr = [];
+var balanced = true;
 for (let i = 0; i < input.length; i++) {
-  if (input[i]==="(" || input[i]==="[" || input[i]==="{") {
-      arr.push(input[i]);
-      console.log(arr);
-      
-      }
-      
-      else if (input[i]===")" || input[i]==="]" || input[i]==="}" )  {
-        var last= arr.pop()
-        console.log(last);
-        
-          if(
-          (input[i] === ")" && last !== "(") ||
-          (input[i] === "]" && last !== "[") ||
-          (input[i] === "}" && last !== "{")
-        ) {
-          balanced = false;
-          break;
-        }
-          }
-        }
-        if (balanced && arr.length===0) {
-          console.log("balanced");          
-        }else{
-          console.log("not balanced");
-        }
+  if (input[i] === "(" || input[i] === "[" || input[i] === "{") {
+    arr.push(input[i]);
+    console.log(arr);
+  } else if (input[i] === ")" || input[i] === "]" || input[i] === "}") {
+    var last = arr.pop();
+    console.log(last);
 
-
-
-
-
-
-
-
-
-
+    if (
+      (input[i] === ")" && last !== "(") ||
+      (input[i] === "]" && last !== "[") ||
+      (input[i] === "}" && last !== "{")
+    ) {
+      balanced = false;
+      break;
+    }
+  }
+}
+if (balanced && arr.length === 0) {
+  console.log("balanced");
+} else {
+  console.log("not balanced");
+}

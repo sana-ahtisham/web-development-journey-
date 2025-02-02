@@ -110,9 +110,9 @@ propertiesOfStudent(student);
 // each element is the square of the original array elements. Print both the original
 // and the modified array. let numbers = [1, 2, 3, 4];
 let numbers = [1, 2, 3, 4];
-let modifiedNumber=numbers.map(num=>{
-  return num**2
-})
+let modifiedNumber = numbers.map((num) => {
+  return num ** 2;
+});
 console.log(modifiedNumber);
 console.log(numbers);
 
@@ -121,45 +121,129 @@ console.log(numbers);
 // subtraction) on the two numbers. Define separate functions for addition and
 // subtraction, and pass them as callbacks to operate.
 
-
 function operate(num1, num2, callback) {
   return callback(num1, num2);
-  }
-  function addCallback(numb1,numb2){
-    return numb1+numb2
-  }
-  function subtractallback(numb1,numb2){
-    return numb1-numb2
-  }
-  console.log(operate(10, 5, addCallback));
-  console.log(operate(10, 5, subtractallback));
+}
+function addCallback(numb1, numb2) {
+  return numb1 + numb2;
+}
+function subtractallback(numb1, numb2) {
+  return numb1 - numb2;
+}
+console.log(operate(10, 5, addCallback));
+console.log(operate(10, 5, subtractallback));
 //   12  .Use setTimeout to create a function that prints "Hello, World!" after a delay of 3
 // seconds.
 // one method to solve
 function printHelloWorld() {
   console.log("Hello, World!");
-  }
+}
 setTimeout(printHelloWorld, 3000);
 //   // another method to solve
 setTimeout(() => {
   console.log("Hello, World!");
 }, 3000);
 
-
 //   13.  Use setInterval to create a function that logs the current time every 2  seconds. After 10 seconds, clear the interval?
 
+// let intervalId = setInterval(() => {
+//   const currentTime = new Date();
+//   console.log(currentTime.toLocaleString());
+// }, 2000);
+// setTimeout(() => {
+//   clearInterval(intervalId);
+//   console.log("Interval cleared.");
+// }, 10000);
+// 14.Create a function fetchData that returns a promise. Inside the function, use setTimeout to simulate a network request that resolves with a message ("Data received!") after 2 seconds. Then, call fetchData and handle the response with .then() and .catch().
 
- let intervalId=setInterval(() => {
-  const currentTime=new Date();
-  console.log(currentTime.toLocaleString());
-},2000 );
-setTimeout(() => {
-  clearInterval(intervalId);
-  console.log("Interval cleared.");
-}, 10000);
+// function fetchData() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("Data received!");
+//     }, 2000);
+//   });
+// }
+// fetchData()
+//   .then((response) => {
+//     console.log(response);
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   });
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("Data received!");
+    }, 2000);
+  });
+}
+fetchData()
+  .then((response) => {
+    console.log(response);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+// 15. Rewrite the fetchData function (from Question 5: Create an object calculator that has two methods: add and subtract. Use enhanced object literals and arrow functions to define these methods. Each method should take two numbers and return the result. Test these methods by calling them with different numbers.) using async and await.Call this new function and log the result.
+const calculatorBSync = {
+  add: (a, b) => {
+    return a + b;
+  },
+  substract: (a, b) => {
+    return a - b;
+  },
+};
+console.log("Addition Result:", calculatorBSync.add(5, 3));
+console.log("Subtraction Result:", calculatorBSync.substract(10, 4));
+async function fetchData1() {
+  const fetchData1 = async () => {
+    const resultawait = await new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve("Data received!");
+      }, 2000);
+    });
+  };
+  return resultawait;
+}
+fetchData1()
+  .then((data) => {
+    console.log("Data received! :fetchData1", data);
+  })
+  .catch((error) => {
+    console.log("error", error);
+  });
+// 16. Write a function that accepts two parameters, base and exponent, and uses the exponentiation operator (**) to calculate and return the result. Test this function with different values.
+function exponentiation(base, exponent) {
+  return base ** exponent;
+}
+console.log(exponentiation(2, 3));
+console.log(exponentiation(3, 3));
+console.log(exponentiation(4, 2));
 
+// 17.Define a class Animal with a constructor that accepts name and species. Add a method speak that logs a message like "Dog says Woof!" Create instances of this class with different animals and call the speak method for each.
 
+class Animal {
+  constructor(name, species) {
+    this.name = name;
+    this.species = species;
+  }
+  speak() {
+    console.log(`${this.species} says ${this.speakSound()}`);
+  }
+  speakSound() {
+    switch (this.species) {
+      case "Dog":
+        return "Woof!";
+      case "Cat":
+        return "Meow!";
+      default:
+        return "I don't know what sound this animal makes!";
+    }
+  }
+}
+// Create instances of the Animal class 
+const dog = new Animal("hack", "Dog");
+const cat = new Animal("oreo", "cat");
+dog.speak(); // Buddy says Woof!
+cat.speak();
 
-
- 
-  
